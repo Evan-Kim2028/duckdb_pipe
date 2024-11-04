@@ -4,7 +4,7 @@ from typing import Dict
 
 import polars as pl
 from src.duckdb_pipe.pipe.query_logs import get_events
-from src.duckdb_pipe.pipe.write_db import (
+from duckdb_pipe.pipe.write_db import (
     write_to_duckdb,
     initialize_duckdb,
     initialize_dlt_pipeline,
